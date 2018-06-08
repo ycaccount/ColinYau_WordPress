@@ -8,3 +8,11 @@ Version: 1.0
 */
 
 @import url(../twentyfourteen/style.css);
+
+.site-title a {
+    color: darkgray;
+}
+
+.site-title a:hover {
+    color: #E91E63;
+}
