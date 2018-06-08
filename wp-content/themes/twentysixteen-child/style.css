@@ -1,10 +1,23 @@
 /*
-Theme Name: colinyau2.design
+Theme Name: colinyau.design
 Template: twentysixteen
-Theme URI: colinyau2.design
+Theme URI: colinyau.design
 Description: This is a child theme developed for Dev Tools 2 Summer 2018
 Author: Colin Yau
 Version: 1.0
 */
 
 @import url(../twentysixteen/style.css);
+@import url('https://fonts.googleapis.com/css?family=Sunflower');
+
+.site-branding .site-title a {
+    color: darkgray;
+}
+
+.site-branding .site-title a:hover {
+    color: red;
+}
+
+.entry-title {
+	font-family: 'Sunflower', sans-serif;
+}
