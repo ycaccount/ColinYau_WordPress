@@ -10,6 +10,15 @@ Version: 1.0
 @import url(../twentysixteen/style.css);
 @import url('https://fonts.googleapis.com/css?family=Sunflower');
 
+body {
+    background: #faeceb;
+}
+
+.site {
+    background-color: #faeceb;
+}
+
+/*
 .site-branding .site-title a {
     color: darkgray;
 }
@@ -21,3 +30,4 @@ Version: 1.0
 .entry-title {
 	font-family: 'Sunflower', sans-serif;
 }
+*/
