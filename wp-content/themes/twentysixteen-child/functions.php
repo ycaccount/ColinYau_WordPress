@@ -3,7 +3,7 @@
 function wpb_add_google_fonts() {
 
 	wp_enqueue_style( 'wpb-google-fonts',
-		'https://fonts.googleapis.com/css?family=Sunflower',
+		'https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,700',
 		false );
 }
 

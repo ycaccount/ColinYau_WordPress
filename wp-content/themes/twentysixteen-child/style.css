@@ -8,7 +8,7 @@ Version: 1.0
 */
 
 @import url(../twentysixteen/style.css);
-@import url('https://fonts.googleapis.com/css?family=Sunflower');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,700');
 
 body {
     background: #faeceb;
@@ -16,6 +16,12 @@ body {
 
 .site {
     background-color: #faeceb;
+}
+
+@media screen and (min-width: 56.875em) {
+	.widget .widget-title {
+		font-size: 1rem;
+	}
 }
 
 /*
@@ -30,4 +36,8 @@ body {
 .entry-title {
 	font-family: 'Sunflower', sans-serif;
 }
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+font-weight: normal; (bold)(400)(700)
 */
