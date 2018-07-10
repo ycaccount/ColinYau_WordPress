@@ -8,36 +8,75 @@ Version: 1.0
 */
 
 @import url(../twentysixteen/style.css);
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700|Montserrat:300');
 
 body {
-    background: #faeceb;
+    background: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .site {
-    background-color: #faeceb;
+    background-color: #000000;
 }
 
-@media screen and (min-width: 56.875em) {
-	.widget .widget-title {
-		font-size: 1rem;
-	}
+@media screen and (mon-width:56.875em) {
+    .widget  .widget-title {
+    	font-size: 1rem;
+    }
 }
 
-/*
 .site-branding .site-title a {
-    color: darkgray;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .site-branding .site-title a:hover {
-    color: red;
+    color: #808080;
 }
 
-.entry-title {
-	font-family: 'Sunflower', sans-serif;
+.main-navigation a {
+    color: #FFFFFF;
 }
 
-font-family: 'Roboto', sans-serif;
-font-family: 'Playfair Display', serif;
-font-weight: normal; (bold)(400)(700)
-*/
+.main-navigation a:hover {
+    color: #808080 !important;
+}
+
+body {
+	color: #FFFFFF;
+}
+
+a {
+    color: #C0C0C0;
+}
+
+a:hover {
+    color: #808080;
+}
+
+.entry-title a {
+    color: #FFFFFF;
+}
+
+.entry-title a:hover {
+    color: #808080;
+}
+
+.entry-footer a {
+    color: #C0C0C0;
+}
+
+.entry-footer a:hover {
+    color: #808080;
+}
+
+.post-navigation a {
+    color: #C0C0C0;
+}
+
+.site-info a {
+    color: #808080;
+}
